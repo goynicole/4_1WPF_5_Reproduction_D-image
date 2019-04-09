@@ -1,0 +1,17 @@
+﻿<Window x:Class="Reproduction_D_image.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Reproduction_D_image"
+        mc:Ignorable="d"
+        Title="Reproduction d'image Exercice5" Height="600" Width="800">
+    <Grid>
+        <!--dans les propriété mettre les images en contenu et toujour copier-->
+        <Image Source="Resources\Exercice5_computer.png"/>
+        <Image Source="Resources\Exercice5_laManu.jpg" Margin="100,145,110,193" Height="232"/>
+
+        <TextBlock Text="Avec La Manu j'apprends à devenir un bon développeur !" TextAlignment="Center" FontSize="30" TextWrapping="Wrap" Margin="100,60,110.333,425" FontFamily="Rockwell Nova Cond Light" Foreground="#FF29AAE3"/>
+
+    </Grid>
+</Window>
